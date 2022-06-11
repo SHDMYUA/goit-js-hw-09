@@ -7,24 +7,25 @@
     <link rel="stylesheet" href="css/common.css" />
   </head>
   <body>
-    <p><a href="index.html">Go back</a></p>
-
+  
+    <div class="wrapper field">
+      <p><a href="index.html">Go back</a></p>
     <form class="form">
-      <label>
+      <label class="field">
         First delay (ms)
         <input type="number" name="delay" required />
       </label>
-      <label>
+      <label class="field">
         Delay step (ms)
         <input type="number" name="step" required />
       </label>
-      <label>
+      <label class="field">
         Amount
         <input type="number" name="amount" required />
       </label>
       <button type="submit">Create promises</button>
     </form>
-
+    </div>
     <script src="js/03-promises.js" type="module"></script>
   </body>
 </html>
